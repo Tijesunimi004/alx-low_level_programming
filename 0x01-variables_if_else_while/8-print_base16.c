@@ -13,15 +13,17 @@ int main(void)
 	char alpha = 'a';
 	int y = 0;
 
-	while (alpha <= 'f')
-	{
-		putchar(alpha);
-		alpha++;
-	}
 	while (y < 10)
 	{
 		putchar(y + '0');
 		y++;
+	}
+
+	while (alpha <= 'f')
+	{
+		putchar(alpha);
+		alpha++;
+
 	}
 
 		putchar('\n');
