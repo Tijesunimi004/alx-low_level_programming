@@ -16,7 +16,7 @@ int main(void)
 
 	}
 
-	char big = 'A'
+	char big = 'A';
 
 	while (big <= 'Z')
 	{
@@ -24,7 +24,7 @@ int main(void)
 		big++;
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 
