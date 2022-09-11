@@ -7,6 +7,9 @@
 
 int main(void)
 {
+	char small = 0;
+	char big = 0;
+
 	for (small = 'a'; small <= 'z'; small++)
 	{
 		putchar(small);
