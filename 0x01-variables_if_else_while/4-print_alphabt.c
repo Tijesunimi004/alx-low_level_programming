@@ -8,8 +8,7 @@
 int main(void)
 {
 	char small = 0;
-	char e = 'e';
-	char q = 'q';
+	
 
 	for (small = 'a'; small <= 'z'; small++)
 	{
