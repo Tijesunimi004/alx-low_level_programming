@@ -18,7 +18,7 @@ int main(void)
 	{
 		putchar(rev);
 
-		++rev;
+		rev--;
 	}
 
 		putchar('\n');
