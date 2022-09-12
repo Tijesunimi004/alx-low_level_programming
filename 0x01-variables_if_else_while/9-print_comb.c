@@ -12,14 +12,13 @@ int main(void)
 	while (k <= 10)
 
 	{
-		putchar(k + '0');
-		putchar(', ');
+		putchar(k + 48 + 44 + 32);
 		k++;
 
 	}
 
 	putchar('\n');
-	return 0;
+	return (0);
 
 
 }
