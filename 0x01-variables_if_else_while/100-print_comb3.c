@@ -10,33 +10,23 @@
 int main(void)
 
 {
-
 	int i;
-
 	int j;
 
 	i = 0;
 
 	while (i < 9)
-
 	{
-
 		j = 1;
 
 		while (j < 10)
-
 		{
-
 			if ((i != j) && (i < j))
-
 			{
 
 				putchar(48 + i);
-
 				putchar(48 + j);
-
 				if ((i + j) != 17)
-
 				{
 					putchar(44);
 					putchar(32);
@@ -50,7 +40,6 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 
 }
