@@ -38,19 +38,13 @@ int main(void)
 				if ((i + j) != 17)
 
 				{
-
 					putchar(44);
-
 					putchar(32);
 
 				}
-
 			}
-
-			j++;
-
+		j++;
 		}
-
 		i++;
 
 	}
