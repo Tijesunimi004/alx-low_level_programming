@@ -12,7 +12,7 @@ int main(void)
 	while (k <= 10)
 
 	{
-		putchar(k + 48 + 44 + 32);
+		putchar(k + 48);
 		k++;
 
 	}
