@@ -5,7 +5,7 @@
 * Return: 0(success)
 */
 
-int isalpha(int c)
+int _isalpha(int c)
 {
 	int i;
 
