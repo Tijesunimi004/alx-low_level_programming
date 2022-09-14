@@ -6,13 +6,11 @@
 */
 
 int print_alphabet(void)
-
 }
 
-	char i;
+	char c;
 
 	c = 'a';
-
 	while (c <= 'z')
 	{
 		putchar(c);
@@ -20,13 +18,6 @@ int print_alphabet(void)
 	}
 
 	putchar('\n');
+
 	return (0);
-
-
-
-
-
-
-
-
 }
