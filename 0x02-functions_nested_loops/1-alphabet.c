@@ -5,18 +5,28 @@
 * Return: 0 (success)
 */
 
-int main(void)
-{
+int print_alphabet(void)
+
+}
 
 	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(i);
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
-
 	return (0);
+
+
+
+
+
+
+
 
 }
