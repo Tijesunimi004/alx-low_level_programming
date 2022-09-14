@@ -1,20 +1,25 @@
 #include <stdio.h>
 /**
 * _abs - (int)
-*
+*@n: an integer
 *
 * Return: Always 0.
 */
 
 
-int _abs(void)
+int _abs(int n)
 {
-	int n;
+	int a;
 
-	putchar(n + '0');
-
-	return (0);
-
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		a = -(n)
+		return (n);
+	}
 
 
 
