@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - check the code.
-* Write a function that prints 10 times the alphabet, 
+* print_alphabet_x10 - check the code.
+* Write a function that prints 10 times the alphabet,
 * in lowercase, followed by a new line.
 *
 * Return: Always 0.
