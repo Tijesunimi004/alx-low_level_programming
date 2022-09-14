@@ -24,7 +24,7 @@ int print_sign(int n)
 	else
 	{
 		putchar(45);
-		i = -1
+		i = -1;
 	}
 
 
