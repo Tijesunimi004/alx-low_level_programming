@@ -21,7 +21,7 @@ void print_most_numbers(void)
 
 
 
-	for(i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 
 	{
 
