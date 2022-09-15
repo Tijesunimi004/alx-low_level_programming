@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
 * _isdigit - (int c)
@@ -22,12 +21,22 @@ int _isdigit(int c)
 	}
 
 	return (isdigit);
+}
 
+int main(void)
 
+{
 
+char c;
 
+c = '0';
 
+printf("%c: %d\n", c, _isdigit(c));
 
+c = 'a';
 
+printf("%c: %d\n", c, _isdigit(c));
+
+return (0);
 
 }
