@@ -10,7 +10,7 @@
 
 
 
-int _isupper(char x)
+int _isupper(int x)
 
 {
 		if (x <= 'Z')
