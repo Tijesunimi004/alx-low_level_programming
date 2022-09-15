@@ -3,7 +3,7 @@
 
 /**
 * int mul - (int a, int b)
-* Multiplication of 2 numbers
+* @a @b : Muliplications of 2 numbers 
 * Return: Always 0.
 */
 
