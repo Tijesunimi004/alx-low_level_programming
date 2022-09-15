@@ -1,8 +1,5 @@
-#ifndef HEADER_FILE
-
-
-
-#define HEADER_FILE
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 
 
@@ -19,5 +16,6 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+int _isdigit(int c);
 
 #endif
