@@ -1,19 +1,13 @@
 #include <stdio.h>
-
-
-#include <stdio.h>
-
+#include "mainn.h"
 
 
 /**
- *
- * * print_diagonal - a function that draws a diagonal
- *
- * * l* ine on the terminal.
- *
- * * Return: Always 0.
- *
- * */
+* print_diagonal - a function that draws a diagonal
+* ine on the terminal.
+* Return: Always 0.
+*
+*/
 
 
 
