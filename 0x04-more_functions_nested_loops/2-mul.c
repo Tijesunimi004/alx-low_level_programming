@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* int mul - (int a, int b)
+* mul - (int a, int b)
 * @a @b : Muliplications of 2 numbers
 * Return: Always 0.
 */

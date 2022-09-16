@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* void print_most_numbers - (void)
+* print_most_numbers - (void)
 * @void : print most numbers
 * Return: Always 0.
 */
