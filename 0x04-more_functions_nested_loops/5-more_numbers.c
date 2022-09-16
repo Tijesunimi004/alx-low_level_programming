@@ -31,15 +31,15 @@ void more_numbers(void)
 
 			{
 
-				_putchar(48 + i / 10);
+				putchar(48 + i / 10);
 
 			}
 
-			_putchar(48 + f);
+			putchar(48 + f);
 
 		}
 
-		_putchar('\n');
+		putchar('\n');
 
 	}
 
