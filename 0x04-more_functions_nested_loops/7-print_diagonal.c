@@ -18,11 +18,11 @@ void print_diagonal(int n)
 	{
 		if (n <= 0)
 		{
-			_putchar('\n');
+			putchar('\n');
 		}
 		else
-			_putchar(' ');
-			_putchar(92);
+			putchar(' ');
+			putchar(92);
 	}
 
 }
