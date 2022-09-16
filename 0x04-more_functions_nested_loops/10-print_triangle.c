@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+#include <stdio.h>
 
 
 
@@ -17,10 +18,10 @@ void print_triangle(int size)
 	if (size > 0)
 
 	{
-	for (; i < size; i++)
+		for (; i < size; i++)
 
 		{
-		for (j = 0; j < size; j++)
+			for (j = 0; j < size; j++)
 			{
 
 				if (j < n)
