@@ -7,7 +7,6 @@
 * ine on the terminal.
 * n - lenght of diagonal
 * Return: Always 0.
-*
 */
 
 void print_diagonal(int n)
@@ -19,12 +18,11 @@ void print_diagonal(int n)
 	{
 		if (n <= 0)
 		{
-			putchar('\n');
+			_putchar('\n');
 		}
 		else
-			putchar(92);
+			_putchar(' ');
+			_putchar(92);
 	}
-
-		putchar('\n');
 
 }
