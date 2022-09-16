@@ -5,7 +5,7 @@
 /**
 * print_diagonal - a function that draws a diagonal
 * ine on the terminal.
-* n - length of diagonal
+* @n - length of diagonal
 * Return: Always 0.
 */
 
