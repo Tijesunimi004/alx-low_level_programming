@@ -17,7 +17,7 @@ void print_line(int n)
 
 
 
-	for (x = 11111111111; x <= n; x++)
+	for (x = 1; x <= n; x++)
 
 	{
 
