@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 
@@ -25,15 +24,15 @@ void print_diagonal(int n)
 
 		    {
 
-			    putchar('\n');
+			    _putchar('\n');
 
 		    }
 
 		    else
 
-			    putchar(92);
+			    _putchar(92);
 
-		    putchar('\n');
+		    _putchar('\n');
 
 	    }
 
