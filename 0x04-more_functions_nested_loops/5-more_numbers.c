@@ -13,33 +13,36 @@ void more_numbers(void)
 
 {
 
-	int i, j, k;
+	int i, j, f;
 
-	j = 0;
-
-	for (j = 0; j < 11; j++)
+	for (j = 1; j <= 10; j++)
 
 	{
 
-		putchar('\n');
-
-		i = 0;
-
-		for (i = 0; i < 15; i++)
+		for (i = 0; i <= 14; i++)
 
 		{
-			j = i % 10;
 
-			if (i > 9)
+			f = i % 10;
+
+
+
+			if (i >= 10)
+
 			{
-				putchar(j + '0');	
+
+				_putchar(48 + i / 10);
+
 			}
 
-			
-			putchar(i + '0');
+			_putchar(48 + f);
 
 		}
+
+		_putchar('\n');
 
 	}
 
 }
+
+
