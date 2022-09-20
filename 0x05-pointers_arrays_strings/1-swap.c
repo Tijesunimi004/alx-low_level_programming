@@ -4,7 +4,8 @@
 
 /**
 * swap_int(int *a, int *b) - a function that swaps the values of two integers.
-*  @a @b: parameters checked
+* @a:pointer variable
+* @b:pointer variable
 * Return: Always 0.
 */
 
@@ -15,7 +16,7 @@ void swap_int(int *a, int *b)
 
 	int j;
         j = *a;
-*	a = *b;
+	*a= *b;
 	*b = j;
 
 
