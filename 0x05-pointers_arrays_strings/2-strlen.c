@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* int _strlen - a function that returns the length of a string.
-* @*s: pointer variable
+* _strlen - a function that returns the length of a string.
+* s: pointer variable
 * Return: Always 0.
 */
 
