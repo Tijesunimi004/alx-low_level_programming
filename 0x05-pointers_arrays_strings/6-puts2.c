@@ -10,19 +10,22 @@
 
 void puts2(char *str)
 {
-	int i;
+int i = 0, j = 0;
 
-	i = *str;
+while (str[i] != '\0')
+{
+	i++;
+}
 
-	i = 0;
+i -= 1;
 
-	for (i = 0; i < 10; i++)
-	{
-		if (i % 2 == 0)
-		{
-			printf("%d", i);
-		}
-	}
+for (j = 0; j <= i; j += 2)
+
+{
+	putchar(str[i]);
+}
+
+putchar('\n');
 }
 
 
