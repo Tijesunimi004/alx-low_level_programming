@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
-* _memset - a function that fills memory with a constant byte
+* _memset - a function that fills
+* memory with a constant byte
 * @s : This is the pointer of the memory location
 * where the memory will be set.
-* @b : This is the value that is to be copied to the memory block
-* @n : This is the number of bytes in the memory block which is set.
+* @b : This is the value that is to be
+* copied to the memory block
+* @n : This is the number of bytes
+* in the memory block which is set.
 * Return: Nothing
 */
 
