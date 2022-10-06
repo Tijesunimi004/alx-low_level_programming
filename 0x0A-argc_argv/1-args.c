@@ -12,12 +12,8 @@
 
 int main(int argc, char  *argv[])
 {
-	int i = 0;
-
-	if (i > 1)
-	{
-	printf("%d\n", atoi(argv[i]));
-	}
+	if (argv[0])
+		printf("%d\n", argc - 1);
 
 	return (0);
 }
