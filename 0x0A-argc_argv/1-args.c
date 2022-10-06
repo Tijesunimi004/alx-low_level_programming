@@ -12,6 +12,6 @@
 
 int main(int argc, char  *argv[])
 {
-	printf("%d", atoi(argv[argc - 1]));
+	printf("%d\n", atoi(argv[argc - 1]));
 	return (0);
 }
