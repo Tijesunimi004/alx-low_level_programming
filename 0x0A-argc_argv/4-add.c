@@ -4,13 +4,11 @@
 
 
 
-
-
 /*
- * main -  a program that adds positive numbers.
- * @argc: argument count
- * @argv: argumrnt vector
- * Return: 0 (success)
+* main -  a program that adds positive numbers.
+* @argc: argument count
+* @argv: argumrnt vector
+* Return: 0 (success)
 */
 
 
@@ -21,47 +19,48 @@ int main(int argc, char *argv[])
 
 	    int i = 0;
 
-
+	        
 
 	        int sum = 0;
 
 
 
-		    char Error;
+		for(i = 1; i < argc; i++)
 
+		{
 
+			if (i >= 'a' && i <= 'z')
 
-		    if (argc == 1)
+			{
 
-			    printf("0\n");
+				printf("Error\n");
 
+			}
 
+			else if (argc == 1)
 
-		    for (i = 1; i < argc; i++)
+			{
 
-		    {
+				printf("0\n");
 
-			    if ((i >= 'a') && (i <= 'z'))
+			}
 
-			    {
+			    
 
-				    sum = Error;
+			else
 
-				    printf("%c\n", Error);
+			{
 
-			    }
+				sum += atoi(argv[i]);
 
-			    else
+			}
 
-			    {
+		}
 
-				    sum += atoi(argv[i]);
-			    }
-			printf("%d\n", sum);
-		    }
+		    
 
+		printf("%d\n", sum);
 
-
-		    return 0;
+		return 0;
 
 }
