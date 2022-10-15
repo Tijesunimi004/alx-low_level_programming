@@ -46,8 +46,7 @@ void print_dog(struct dog *d);
 /**
  *
  *  * dog_t - typedef for struct dog
- *
- *   */
+*/
 
 typedef struct dog dog_t;
 
