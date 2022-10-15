@@ -11,16 +11,15 @@
 
 
 /**
+* struct dog - a new type
  *
- *  * struct dog - a new type
+* @name: name
  *
- *   * @name: name
- *
- *    * @age: the dog age
+* @age: the dog age
  *
  *     * @owner: name of dog owner
  *
- *      */
+*/
 
 
 
